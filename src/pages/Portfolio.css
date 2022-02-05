@@ -1,0 +1,16 @@
+.portfolio {
+    background: #212b33;
+}
+
+.portfolio img {
+    height: 200px;
+    width: 200px;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid #fff;
+    overflow: hidden;
+}
+
+.portfolio img:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer
+}

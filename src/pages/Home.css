@@ -1,0 +1,64 @@
+.home_1 {
+    background: #25333f;
+    font-weight: 500;
+}
+
+li{
+    font-weight: 300;
+    padding: .2rem 0;
+}
+
+ul li span {
+    color: #ffc112;
+}
+
+ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.home_2 {
+    background: #212b33;
+}
+
+.name {
+    letter-spacing: 3.5px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.contact a, .icon a, .icon a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.contact p{
+    font-style: italic;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 996px) {
+    .home_1 {
+        order: 2;
+    }
+
+    .home_2 {
+        order: 1;
+        padding: 1.5rem 0 4.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .name, .contact-me {
+        font-size: 14px!important;
+    }
+
+    .contact{
+        font-size:12px!important;
+    }
+}
+
